@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		346976461E0E719000B95172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346976451E0E719000B95172 /* AppDelegate.swift */; };
+		346976481E0E719000B95172 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346976471E0E719000B95172 /* ViewController.swift */; };
+		3469764B1E0E719000B95172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 346976491E0E719000B95172 /* Main.storyboard */; };
+		3469764D1E0E719000B95172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3469764C1E0E719000B95172 /* Assets.xcassets */; };
+		346976501E0E719000B95172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3469764E1E0E719000B95172 /* LaunchScreen.storyboard */; };
+		346976581E0E719F00B95172 /* MutexButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346976571E0E719F00B95172 /* MutexButtonsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		346976421E0E719000B95172 /* MutexButtonsViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutexButtonsViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		346976451E0E719000B95172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		346976471E0E719000B95172 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3469764A1E0E719000B95172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3469764C1E0E719000B95172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3469764F1E0E719000B95172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		346976511E0E719000B95172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		346976571E0E719F00B95172 /* MutexButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutexButtonsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3469763F1E0E719000B95172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		346976391E0E719000B95172 = {
+			isa = PBXGroup;
+			children = (
+				346976441E0E719000B95172 /* MutexButtonsViewDemo */,
+				346976431E0E719000B95172 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		346976431E0E719000B95172 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				346976421E0E719000B95172 /* MutexButtonsViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		346976441E0E719000B95172 /* MutexButtonsViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				346976451E0E719000B95172 /* AppDelegate.swift */,
+				346976471E0E719000B95172 /* ViewController.swift */,
+				346976571E0E719F00B95172 /* MutexButtonsView.swift */,
+				346976491E0E719000B95172 /* Main.storyboard */,
+				3469764C1E0E719000B95172 /* Assets.xcassets */,
+				3469764E1E0E719000B95172 /* LaunchScreen.storyboard */,
+				346976511E0E719000B95172 /* Info.plist */,
+			);
+			path = MutexButtonsViewDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		346976411E0E719000B95172 /* MutexButtonsViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 346976541E0E719000B95172 /* Build configuration list for PBXNativeTarget "MutexButtonsViewDemo" */;
+			buildPhases = (
+				3469763E1E0E719000B95172 /* Sources */,
+				3469763F1E0E719000B95172 /* Frameworks */,
+				346976401E0E719000B95172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutexButtonsViewDemo;
+			productName = MutexButtonsViewDemo;
+			productReference = 346976421E0E719000B95172 /* MutexButtonsViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3469763A1E0E719000B95172 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "HOME Ma";
+				TargetAttributes = {
+					346976411E0E719000B95172 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HD9XAK733R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3469763D1E0E719000B95172 /* Build configuration list for PBXProject "MutexButtonsViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 346976391E0E719000B95172;
+			productRefGroup = 346976431E0E719000B95172 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				346976411E0E719000B95172 /* MutexButtonsViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		346976401E0E719000B95172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346976501E0E719000B95172 /* LaunchScreen.storyboard in Resources */,
+				3469764D1E0E719000B95172 /* Assets.xcassets in Resources */,
+				3469764B1E0E719000B95172 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3469763E1E0E719000B95172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				346976481E0E719000B95172 /* ViewController.swift in Sources */,
+				346976581E0E719F00B95172 /* MutexButtonsView.swift in Sources */,
+				346976461E0E719000B95172 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		346976491E0E719000B95172 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3469764A1E0E719000B95172 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3469764E1E0E719000B95172 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3469764F1E0E719000B95172 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		346976521E0E719000B95172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		346976531E0E719000B95172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		346976551E0E719000B95172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HD9XAK733R;
+				INFOPLIST_FILE = MutexButtonsViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MaHaomeng.MutexButtonsViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		346976561E0E719000B95172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HD9XAK733R;
+				INFOPLIST_FILE = MutexButtonsViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MaHaomeng.MutexButtonsViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3469763D1E0E719000B95172 /* Build configuration list for PBXProject "MutexButtonsViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346976521E0E719000B95172 /* Debug */,
+				346976531E0E719000B95172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		346976541E0E719000B95172 /* Build configuration list for PBXNativeTarget "MutexButtonsViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				346976551E0E719000B95172 /* Debug */,
+				346976561E0E719000B95172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3469763A1E0E719000B95172 /* Project object */;
+}
