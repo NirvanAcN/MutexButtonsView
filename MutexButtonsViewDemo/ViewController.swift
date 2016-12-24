@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         mutexView.delegate = self
     }
-
+    
 }
 
 extension ViewController: MutexButtonsViewDelegate {
